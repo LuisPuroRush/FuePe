@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Botón con Video de Fondo</title>
+    <title>Go Cine Leder</title>
     <style>
         body {
             margin: 0;
@@ -89,22 +89,21 @@
     <!-- Video de fondo -->
     <video id="backgroundVideo" autoplay muted loop>
         <source src="fondo.mp4" type="video/mp4">
-        Tu navegador no soporta la reproducción de video.
     </video>
 
     <div class="container">
-        <button id="animatedButton">Presiona aquí, líder querida</button>
+        <button id="animatedButton">Presiona aquí, líder querida :3</button>
         
         <!-- Primer mensaje -->
         <div id="messageContainer">
             <img src="https://i.pinimg.com/736x/b4/76/8a/b4768ade1806ba39ca80048afae70016.jpg" alt="Primera Imagen">
-            <p>Se le quiere, líder, aunque usted me traicionó <3 u.u</p>
+            <p>Se le quiere, líder, aunque usted me traicionó ❤️</p>
         </div>
         
         <!-- Segundo mensaje -->
         <div id="secondMessageContainer">
             <img src="https://i.pinimg.com/736x/b2/53/5e/b2535e98f0ca88747b2ac5e7dcd9e454.jpg" alt="Segunda Imagen">
-            <p>Go, cine líder? :3 <3 ajsxasxj</p>
+            <p>Go, cine líder? :3 ❤️ ajsxasxj </p>
         </div>
     </div>
     <audio id="backgroundMusic" src="tu-musica.mp3"></audio>
@@ -121,8 +120,6 @@
             // Reproducir música
             const music = document.getElementById('backgroundMusic');
             music.play();
-
-            // Mostrar el segundo mensaje después de 3 segundos
             setTimeout(function() {
                 const secondMessageContainer = document.getElementById('secondMessageContainer');
                 secondMessageContainer.style.display = 'flex';
